@@ -10,8 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+
 builder.Services.AddScoped<IAccountService,AccountService>();
-builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
 
 builder.Services.AddDbContext<Restarunt_DbContext>(options =>

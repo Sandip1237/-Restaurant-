@@ -13,6 +13,9 @@ namespace Restarunt.Dao.DB
         public DbSet<User> tbl_User { get; set; }
 
         public DbSet<LoginDetails> tbl_Login_Details { get; set; }
+
+        public DbSet<Course> tbl_Courses { get; set; }
+
         public Restarunt_DbContext(DbContextOptions<Restarunt_DbContext> options) : base(options) { 
         
         }

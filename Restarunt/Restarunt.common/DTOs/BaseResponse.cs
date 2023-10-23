@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Restarunt.common.DTOs.Account
 {
-    public class LoginResponse : BaseResponse
+    public class BaseResponse
     {
-     
+        public bool Success { get; set; }
+        public string Error { get; set; }
     }
 }

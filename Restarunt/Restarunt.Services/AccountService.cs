@@ -22,7 +22,7 @@ namespace Restarunt.Services
             try
             {
                var dbuser= await _accountRepository.getlogindetails(request.UserName!, request.Password!);
-                if(dbuser != null)
+                if(dbuser == null)
                 {
                     response.Success = false;
                     response.Error = "Invalid";

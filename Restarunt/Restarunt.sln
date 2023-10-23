@@ -5,11 +5,11 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restarunt", "Restarunt\Restarunt.csproj", "{F7D67D0A-C5EC-4C36-A313-A1F0E4B0277E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restarunt.common", "Restarunt.common\Restarunt.common.csproj", "{ACBB5202-912A-40B2-8890-C4DB420F79F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restarunt.common", "Restarunt.common\Restarunt.common.csproj", "{ACBB5202-912A-40B2-8890-C4DB420F79F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restarunt.Dao", "Restarunt.Dao\Restarunt.Dao.csproj", "{20FB78F2-5B66-44B7-AA82-594EC8131ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restarunt.Dao", "Restarunt.Dao\Restarunt.Dao.csproj", "{20FB78F2-5B66-44B7-AA82-594EC8131ED4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restarunt.Services", "Restarunt.Services\Restarunt.Services.csproj", "{FD2A0064-A4F7-4EBD-AFA2-65B2D4CDA4E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restarunt.Services", "Restarunt.Services\Restarunt.Services.csproj", "{FD2A0064-A4F7-4EBD-AFA2-65B2D4CDA4E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
